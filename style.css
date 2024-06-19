@@ -1,0 +1,64 @@
+  /* Custom CSS Styling */
+
+        /* Header Styling */
+        header {
+            background-color: #1e40af; /* Tailwind bg-blue-600 */
+            color: #ffffff; /* Tailwind text-white */
+        }
+
+        /* Navigation Links */
+        nav a {
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #d1d5db; /* Tailwind text-gray-300 */
+        }
+
+        /* Featured Posts */
+        .featured-post img {
+            transition: transform 0.3s;
+        }
+        .featured-post img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Category Badges */
+        .category-badge {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            font-weight: 600;
+        }
+
+        /* Newsletter Form */
+        .newsletter-form input {
+            border: 1px solid #d1d5db; /* Tailwind border-gray-300 */
+            padding: 0.5rem;
+            border-radius: 0.375rem; /* Tailwind rounded-md */
+            width: 100%;
+        }
+
+        .newsletter-form button {
+            background-color: #1e40af; /* Tailwind bg-blue-600 */
+            color: #ffffff; /* Tailwind text-white */
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem; /* Tailwind rounded-md */
+            transition: background-color 0.3s;
+        }
+        .newsletter-form button:hover {
+            background-color: #1c3aa9; /* Tailwind hover:bg-blue-700 */
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: #1f2937; /* Tailwind bg-gray-800 */
+            color: #ffffff; /* Tailwind text-white */
+            padding: 1.5rem;
+        }
+
+        footer a {
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #9ca3af; /* Tailwind text-gray-400 */
+        }

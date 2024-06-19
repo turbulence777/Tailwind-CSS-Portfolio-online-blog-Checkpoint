@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <!-- Header Section -->
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold">Cloud Space</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:text-gray-300">Home</a></li>
+                    <li><a href="#" class="hover:text-gray-300">About</a></li>
+                    <li><a href="#" class="hover:text-gray-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Featured Posts Section -->
+    <section class="container mx-auto mt-8 px-4">
+        <h2 class="text-3xl font-bold mb-4">Featured Posts
+            Technology
+        </h2>
+        <div class="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="bg-white shadow-md rounded-md overflow-hidden">
+                <img src="download.jpg" alt="Featured Post 1" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Featured Post 1</h3>
+                    <p class="mt-2 text-gray-600">Fairly-used gadgets demand rising amid inflation.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-md overflow-hidden">
+                <img src="ipgIir__SHaDeUKMDYOdLg-300x300.jpg" alt="Featured Post 2" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Featured Post 2</h3>
+                    <p class="mt-2 text-gray-600">17 Coolest Gadgets You Can Actually Buy.</p>
+                </div>
+            </div>
+            <div class="bg-white shadow-md rounded-md overflow-hidden">
+                <img src="images.jpg" alt="Featured Post 3" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h3 class="text-xl font-bold">Featured Post 3</h3>
+                    <p class="mt-2 text-gray-600">A Short History of Blaming 'Hackers' For Pretty Much Everything.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Category Section -->
+    <section class="container mx-auto mt-8 px-4">
+        <h2 class="text-3xl font-bold mb-4">Categories</h2>
+        <div class="flex flex-wrap gap-2">
+            <span class="bg-blue-200 text-blue-800 py-1 px-3 rounded-full">Technology</span>
+            <span class="bg-green-200 text-green-800 py-1 px-3 rounded-full">Health</span>
+            <span class="bg-red-200 text-red-800 py-1 px-3 rounded-full">Lifestyle</span>
+            <span class="bg-yellow-200 text-yellow-800 py-1 px-3 rounded-full">Travel</span>
+        </div>
+    </section>
+
+    <!-- Recent Posts Section -->
+    <section class="container mx-auto mt-8 px-4">
+        <h2 class="text-3xl font-bold mb-4">Recent Posts</h2>
+        <ul class="space-y-4">
+            <li class="bg-white p-4 shadow-md rounded-md">
+                <h3 class="text-xl font-bold">Recent Post 1
+                    Wagner Mutiny Puts Russia’s Military Bloggers on a Razor’s Edge
+Telegram “war correspondents” have promoted the Kremlin’s invasion of Ukraine, but many have also supported mercenaries who launched a failed coup.
+                </h3>
+                <p class="text-gray-600">Published on: June 1, 2024</p>
+            </li>
+            <li class="bg-white p-4 shadow-md rounded-md">
+                <h3 class="text-xl font-bold">Recent Post 2
+                    Molly White Tracks Crypto Scams. It’s Going Just Great
+The software engineer’s cautionary Web3 blog pours cold water on cryptocurrency’s dumpster fires.
+                </h3>
+                <p class="text-gray-600">Published on: May 25, 2024</p>
+            </li>
+            <li class="bg-white p-4 shadow-md rounded-md">
+                <h3 class="text-xl font-bold">Recent Post 3
+                    The Tenuous Promise of the Substack Dream
+Plus: The threat of blogs, the balkanization of social media, and a new record for America’s mayor.
+                </h3>
+                <p class="text-gray-600">Published on: May 20, 2024</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Newsletter Subscription Form -->
+    <section class="container mx-auto mt-8 px-4">
+        <h2 class="text-3xl font-bold mb-4">Subscribe to our Newsletter</h2>
+        <form class="bg-white p-6 shadow-md rounded-md">
+            <div class="mb-4">
+                <label for="email" class="block text-gray-700">Email:</label>
+                <input type="email" id="email" name="email" class="w-full mt-2 p-2 border border-gray-300 rounded-md" required>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-md hover:bg-blue-700">Subscribe</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6 mt-8">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <div>&copy; 2024 Cloud Space. All rights reserved.</div>
+            <div class="flex space-x-4">
+                <a href="#" class="hover:text-gray-400">Facebook</a>
+                <a href="#" class="hover:text-gray-400">Twitter</a>
+                <a href="#" class="hover:text-gray-400">Instagram</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
